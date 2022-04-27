@@ -18,9 +18,6 @@ TIME(WAIT,'T=2s');
 COMMENT(Protocolfile,'Chamando a macro teste');
 MACRO(Teste,'');
 
-COMMENT(Protocolfile,'Pra quebrar o script');
-LINHADOISA
-
 COMMENT(Protocolfile,'Aguardando 15s');
 TIME(WAIT,'T=2s');
 
