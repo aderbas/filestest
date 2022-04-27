@@ -12,14 +12,14 @@ Sequence:
 
 COMMENT(Protocolfile,'Iniciando Teste');
 
-COMMENT(Protocolfile,'Aguardando 5s');
-TIME(WAIT,'T=5s');
+COMMENT(Protocolfile,'Aguardando 2s');
+TIME(WAIT,'T=2s');
 
 COMMENT(Protocolfile,'Chamando a macro teste');
 MACRO(Teste,'');
 
-COMMENT(Protocolfile,'Aguardando 15s');
-TIME(WAIT,'T=15s');
+COMMENT(Protocolfile,'Aguardando 2s');
+TIME(WAIT,'T=2s');
 
 COMMENT(Protocolfile,'Finalizando Teste em 2s');
 TIME(WAIT,'T=2s');
